@@ -8,6 +8,7 @@ public class Exe1 {
         displayWordInBinaryFormat();
         System.out.println();
         displayWordInDecimalFormat();
+        System.out.println();
 
     }
 
