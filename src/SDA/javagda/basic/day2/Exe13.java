@@ -6,10 +6,11 @@ public class Exe13 {
     static int max = Integer.MIN_VALUE;
     static int min = Integer.MAX_VALUE;
     public static void main(String[] args) {
-        int [] arrayTable = {12,5,14,8,2};
+        int [] arrayTable = {-12,5,14,8,2};
         System.out.println("Max is: "+ getMaxValue(arrayTable));
         System.out.println("Min is: "+ getMinValue(arrayTable));
-        System.out.println("Sum is: "+ getSum(arrayTable));
+        int sum = getSum(arrayTable);
+        System.out.println("Sum is: "+ sum);
     }
 
     private static int getMaxValue(int[] array) {
