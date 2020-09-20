@@ -7,7 +7,7 @@ public class Exe3 {
         System.out.println(getIndex("ala ma kota", "psa"));
         System.out.println(getIndex("ala ma kota", "ma"));
         System.out.println(getIndex("ala ma kota", ""));
-        System.out.println(getIndex("ala ma kota", "la ma"));
+        System.out.println(getIndex("ala ma kota", "la maą"));
     }
 
     private static int getIndex(String sentence, String word) {
