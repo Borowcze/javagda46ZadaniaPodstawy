@@ -9,7 +9,6 @@ public class Exe1 {
         System.out.println();
         displayWordInDecimalFormat();
         System.out.println();
-
     }
 
     private static void displayWordInHexaFormat() {
